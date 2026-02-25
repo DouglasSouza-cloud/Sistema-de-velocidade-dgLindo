@@ -1,2 +1,2 @@
 # Sistema-de-velocidade-dgLindo
-Um sistema de velocidade que gera uma media, soma, mostra maior e menor.
+O código pede ao usuário para inserir 5 velocidades, garantindo que os valores sejam positivos. Ele calcula e exibe a média, a maior, a menor e a soma das velocidades. Após exibir os resultados, o programa pergunta se o usuário deseja refazer o processo. Se a resposta for "sim", ele reinicia; se for "não", o programa finaliza. O código também trata entradas inválidas, como valores negativos ou não inteiros, pedindo ao usuário para tentar novamente quando necessário.
