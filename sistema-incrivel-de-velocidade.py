@@ -18,7 +18,8 @@ def soma():  # Função para somar os valores de velocidade;
     s = sum(velocidades)
     print(s)
 
-print("=== Sistema de Velocidade ===\n")
+print("=== Sistema de Velocidade Iniciando... ===\n")
+time.sleep(2)
 while True:
 
     try:
@@ -27,7 +28,8 @@ while True:
         for i in range(5):  # Laço de repetição;
             while True:
 
-                velo = int(input("Insira velocidade do motor: "))  # Entrada de dados do usuário;
+                velo = int(input("Insira velocidade do motor: ")) # Entrada de dados do usuário;
+                time.sleep(1) 
                 if velo < 0:  # Condição para não aceitar valor < 0;
                     print("Valor inválido, tente novamente...")
                 else:
